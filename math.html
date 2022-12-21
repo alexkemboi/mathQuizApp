@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>math quiz</title>
+        <link rel="stylesheet" href="math.css">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <h1>MATH QUIZ</h1>
+            <div class="gameOne" id="gameOne">
+            <p>Guess the number between 1-3 to proceed</p>
+            <input type="text" id="gameOneAnswer" placeholder="Input your answer">
+            <button onclick="verify()">Submit</button>
+            </div>
+            <div class="gameTwo" id="gameTwo">
+                <p>Enter the correct answer to the quiz</p>
+                <div id="quiz"></div>
+                <input type="text" id="gameTwoAnswer" placeholder="Input your answer">
+                <button onclick="compute()">Submit</button>
+            </div>
+        </div>
+        <script src="math.js"></script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    border-radius: 25px;
+    border:1px solid ;
+    width:30%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+body{
+    background-color: #2F4F4F;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    width: 80%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+button{
+    width:80%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+}
